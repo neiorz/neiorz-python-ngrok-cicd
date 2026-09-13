@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: python-app
-          image: nourz1/python-auto-pipeline:latest
+          image: nourz1/python-ngrok-cicd
 
           ports:
             - containerPort: 5000
